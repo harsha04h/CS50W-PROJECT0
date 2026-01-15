@@ -1,0 +1,45 @@
+body {
+    display: grid;
+    place-items: center; 
+    height: 100vh;       
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+input[type="text"] {
+    width: 700px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+input[type="submit"] {
+    background-color: lightgray;
+    padding: 8px 25px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 14px;
+}
+
+input[type="submit"]:hover {
+    background-color: darkgray;
+}
+
+form > label {
+    font-size: 60px;
+}
+
+.alg {
+    position: fixed; 
+    top: 10px;
+    right: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
